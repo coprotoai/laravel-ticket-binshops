@@ -3,7 +3,7 @@
     <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/20775532/253992265-718c7d50-6eea-4891-844f-6674e38f2d05.png" width="80%" />
 </p>
 
-A simple helpdesk ticketing system for Laravel 5.1+ (5.1 – 5.8 and 6.* - 7.* - 8.* - 9.* - 10.* - 11.*) which integrates smoothly with Laravel default users and auth system. 
+A simple helpdesk ticketing system for Laravel 5.1+ (5.1 – 5.8 and 6.* - 7.* - 8.* - 9.* - 10.* - 11.* - 12.* - 13.*) which integrates smoothly with Laravel default users and auth system. 
 It will integrate into your current Laravel project within minutes, and you can offer your customers and your team a nice and simple support ticket system. 
 
 ## Fork Notice
@@ -15,6 +15,10 @@ Each Laravel major version this fork has been validated against gets its own bra
 | Laravel version | Branch |
 |---|---|
 | 10, 11 | `laravel-11` |
+| 12 | `laravel-12` |
+| 13 | `laravel-13` |
+
+Note: as of the `laravel-12` branch, this fork no longer depends on `jenssegers/date` (abandoned since 2020, incompatible with Laravel 12's mandatory Carbon 3). Localized/translated ticket timestamps are now provided by a small internal class built directly on Carbon's own native translation support — no functionality was lost, and no third-party dependency risk was traded in for another.
 
 ## Features:
 1. Three main users roles users, agents, and admins
