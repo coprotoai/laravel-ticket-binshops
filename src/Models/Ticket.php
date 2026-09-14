@@ -3,7 +3,7 @@
 namespace Binshops\LaravelTicket\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Jenssegers\Date\Date;
+use Binshops\LaravelTicket\Support\LocalizedDate as Date;
 use Binshops\LaravelTicket\Traits\ContentEllipse;
 use Binshops\LaravelTicket\Traits\Purifiable;
 
