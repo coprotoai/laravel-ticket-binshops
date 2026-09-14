@@ -3,8 +3,18 @@
     <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/20775532/253992265-718c7d50-6eea-4891-844f-6674e38f2d05.png" width="80%" />
 </p>
 
-A simple helpdesk ticketing system for Laravel 5.1+ (5.1 – 5.8 and 6.* - 7.* - 8.* - 9.* - 10.*) which integrates smoothly with Laravel default users and auth system. 
+A simple helpdesk ticketing system for Laravel 5.1+ (5.1 – 5.8 and 6.* - 7.* - 8.* - 9.* - 10.* - 11.*) which integrates smoothly with Laravel default users and auth system. 
 It will integrate into your current Laravel project within minutes, and you can offer your customers and your team a nice and simple support ticket system. 
+
+## Fork Notice
+
+This is a fork of [binshops/laravel-ticket](https://github.com/binshops/laravel-ticket), maintained here to add and validate support for newer Laravel major versions as they're needed. Published under the package name `coprotoai/laravel-ticket`.
+
+Each Laravel major version this fork has been validated against gets its own branch, cut at the point that version was confirmed working — these are frozen snapshots, not branches under ongoing parallel maintenance. If you're on an older Laravel version, check out the branch matching it rather than `main`/`master`.
+
+| Laravel version | Branch |
+|---|---|
+| 10, 11 | `laravel-11` |
 
 ## Features:
 1. Three main users roles users, agents, and admins
