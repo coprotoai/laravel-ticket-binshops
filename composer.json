@@ -1,13 +1,13 @@
 {
-    "name": "binshops/laravel-ticket",
-    "description": "A simple ticketing system for Laravel 5.1 – 5.8 and 6.* - 7.* - 8.* - 9.* - 10.* -which integrates smoothly with Laravel default users and auth system",
+    "name": "coprotoai/laravel-ticket",
+    "description": "A simple ticketing system for Laravel 5.1 - 5.8 and 6.* - 7.* - 8.* - 9.* - 10.* - 11.* - which integrates smoothly with Laravel default users and auth system. Fork of binshops/laravel-ticket maintained for Laravel 11+ compatibility.",
     "type": "laravel-package",
     "keywords": ["laravel","helpdesk", "ticket", "support", "crm", "customer support"],
     "require": {
-        "laravel/framework": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "laravel/framework": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
         "spatie/laravel-html": "^3.2",
-        "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
-        "yajra/laravel-datatables-oracle": "^6.0|^8.0|^9.4|^9.11|^10.4",
+        "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "yajra/laravel-datatables-oracle": "^6.0|^8.0|^9.4|^9.11|^10.4|^11.0",
         "jenssegers/date": "^3.0|^4.0",
         "mews/purifier": "^2.0|^3.1|^3.4",
         "doctrine/dbal": "^2.5|^2.6|^2.10|^3.6"
@@ -18,6 +18,10 @@
             "name": "Sam Berry",
             "homepage": "https://github.com/binshops/laravel-ticket",
             "email": "sam@binshops.com"
+        },
+        {
+            "name": "CoprotoAI",
+            "homepage": "https://github.com/coprotoai/laravel-ticket-binshops"
         }
     ],
     "autoload": {

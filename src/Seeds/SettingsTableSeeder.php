@@ -252,7 +252,7 @@ class SettingsTableSeeder extends Seeder
              *
              * This setting stores the path to the json config file, relative to project route
              */
-            'summernote_options_json_file' => 'vendor/binshops/laravel-ticket/src/JSON/summernote_init.json',
+            'summernote_options_json_file' => 'vendor/coprotoai/laravel-ticket/src/JSON/summernote_init.json',
 
             /*
              * Set which html tags are allowed
@@ -276,7 +276,7 @@ class SettingsTableSeeder extends Seeder
              *
              * Default: __DIR__.'/routes.php'
              */
-            'routes' => base_path('vendor/binshops/laravel-ticket/src').'/routes.php',
+            'routes' => base_path('vendor/coprotoai/laravel-ticket/src').'/routes.php',
 
         ];
     }

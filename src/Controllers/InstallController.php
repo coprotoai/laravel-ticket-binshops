@@ -28,7 +28,7 @@ class InstallController extends Controller
     public function publicAssets()
     {
         $public = $this->allFilesList(public_path('vendor/laravelticket'));
-        $assets = $this->allFilesList(base_path('vendor/binshops/laravel-ticket/src/Public'));
+        $assets = $this->allFilesList(base_path('vendor/coprotoai/laravel-ticket/src/Public'));
         if ($public !== $assets) {
             Artisan::call('vendor:publish', [
                 '--provider' => 'Binshops\\LaravelTicket\\LaravelTicketServiceProvider',
